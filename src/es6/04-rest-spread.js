@@ -36,3 +36,17 @@ function sum(num, ...values){
 }
 
 sum(1, 1,2,3);//El 1er valor es para num, los demas que pasemos se agregan  a "values" por el uso de (...)
+
+
+//Prueba Playground que une el contenido de dos objetos
+function solution(json1, json2) {
+    // Tu código aquí 👈
+     var json1 = json1 || { name: "Mr. Michi", food: "Pescado" }
+     var json2 = json2 || { age: 12, color: "Blanco" }
+   
+     var mergeObject = {...json1, ...json2 };
+     console.log(mergeObject);
+     return mergeObject;
+   }
+
+solution({"name":"Atena","food":"Leche"});
