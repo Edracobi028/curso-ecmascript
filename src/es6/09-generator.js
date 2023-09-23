@@ -16,7 +16,7 @@ console.log(it.next().value);//Mostrar uno de los valores con el metodo next(pal
 console.log(it.next().value);//traera el siguiente valor del array, recordando su estado, osea, que ya trajo uno
 console.log(it.next().value);
 
-// Generador de identificadores para michis
+// Generador de identificadores para michis 16/35
 
 function* getId() {
     // Tu código aquí 👈
