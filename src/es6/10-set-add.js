@@ -7,4 +7,5 @@ const list = new Set();
 list.add('item 1'); //Agregar un item
 list.add('item 2').add('item 3'); //encadenando varios add
 
-console.log(list); //Mostrar como se ve
+console.log(list); //Mostrar como se ves
+
